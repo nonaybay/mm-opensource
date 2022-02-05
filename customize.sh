@@ -1,9 +1,7 @@
 if $BOOTMODE; then
-	echo ""
-	echo "Installing: Aurora Services";
-	pm install --dont-kill -g "$MODPATH/system/priv-app/AuroraServices/AuroraServices.apk"
+	echo "! installing app store (alternative to Google Play Store)"
+	pm install -g "$MODPATH/system/priv-app/AuroraStore/AuroraStore.apk"
 
-	echo ""
-	echo "Installing: Aurora Store";
-	pm install --dont-kill -g "$MODPATH/system/priv-app/AuroraStore/AuroraStore.apk"
+	echo "! install launcher"
+	pm install -g "$MODPATH/data/app/com.saggitt.omega.alpha/com.saggitt.omega.alpha.311.apk"
 fi
