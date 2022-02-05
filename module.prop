@@ -1,7 +1,7 @@
 id=6ccba7941df5d00b688f81315370340e62754c8b3671ccd2341b3259c19ba8a80205614d5fbc3689307cbe1a7c0c1cf5722b4487a8a3c7272df2d31b8c3e8bb7
 name=Open Source Applications
-version=0.0.4
-versionCode=5
+version=0.0.5
+versionCode=6
 author=nonaybay
 description=In this module will contain some Open Source applications
 updateJson=https://raw.githubusercontent.com/nonaybay/mm-opensource/master/update.json
